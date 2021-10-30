@@ -1,0 +1,116 @@
+.section__one{
+    width: 1111px;
+    height: 670px;
+    background-image: url(../../images/Oval.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-bottom: 160px;
+    position: relative;
+    
+    &::before{
+        content: "";
+        display: inline-block;
+        position: absolute;
+        bottom: 0;
+        top: 10%;
+        left: 97%;
+        transform: translateX(-100%);
+        width: 400px;
+        height: 573px;
+        background-image: url(../../images/Group64Copy.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
+
+.wrap__one{
+    padding-top: 145px;
+    padding-left: 95px;
+}
+
+.wrap__one-h2{
+    padding-bottom: 25px;
+    width: 540px;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+
+.wrap__one-p{
+    padding-bottom: 40px;
+    width: 445px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.wrap__one-link{
+    padding: 18px 25px 16px 24px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #333136;
+    text-decoration: none;
+    background: #FFFFFF;
+    border-radius: 8px;
+}
+
+.wrap__one-link:hover{
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #FFAD9B;
+    border-radius: 8px;
+}
+
+
+@media only screen and (max-width: 768px){
+    .section__one{
+        width: 689px;
+        height: 843px;
+        background-image: url(../../images/Oval3.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        margin-bottom: 100px;
+        position: relative;
+        
+        &::before{
+            content: "";
+            display: inline-block;
+            position: absolute;
+            bottom: 0;
+            top: 36%;
+            left: 83%;
+            transform: translateX(-100%);
+            width: 400px;
+            height: 573px;
+            background-image: url(../../images/Groupa64Copy.png);
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+    }
+
+    .wrap__one{
+        padding-top: 60px;
+        padding-left: 0px;
+        text-align: center;
+    }
+
+    .wrap__one-h2{
+        width: 573px;
+        padding-bottom: 20px;
+        padding-left: 60px;
+    }
+
+    .wrap__one-p{
+        padding-bottom: 60px;
+        padding-left: 10px;
+    }
+}
